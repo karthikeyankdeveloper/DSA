@@ -17,5 +17,9 @@ void main(){
     printf("0 Index One : %d\n",arrayOne[0]);
     printf("0 Index Two : %d\n",arrayTwo[0]);
     printf("Size Of int: %d\n",sizeof(int));
-    printf("Find size of Array: %d",sizeof(arrayOne)/sizeof(arrayOne[0]));
+    printf("Find size of Array: %d\n",sizeof(arrayOne)/sizeof(arrayOne[0]));
+
+    char cArray[] = {'a','b','c'};
+
+    printf("Value of cArray : %c %c %c",cArray[0],cArray[1],cArray[2]);
 }

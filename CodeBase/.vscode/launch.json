@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "FindMinArray",
+      "request": "launch",
+      "mainClass": "FindMinArray",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "ReverseAnArray",
+      "request": "launch",
+      "mainClass": "ReverseAnArray",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "RemoveEvenIntegersFromAnArray",
+      "request": "launch",
+      "mainClass": "RemoveEvenIntegersFromAnArray",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "Mainsample",
+      "request": "launch",
+      "mainClass": "Mainsample",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "FindIndex",
+      "request": "launch",
+      "mainClass": "FindIndex",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/DSA/CodeBase/1.Array/1.Basic",
+      "program": "d:/DSA/CodeBase/1.Array/1.Basic/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
