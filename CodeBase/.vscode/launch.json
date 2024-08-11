@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MoveZeroToEnd",
+      "request": "launch",
+      "mainClass": "MoveZeroToEnd",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "Sum",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "SecondMax",
+      "request": "launch",
+      "mainClass": "SecondMax",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "ReplaceTarget",
+      "request": "launch",
+      "mainClass": "ReplaceTarget",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "FindMinArray",
       "request": "launch",
       "mainClass": "FindMinArray",
