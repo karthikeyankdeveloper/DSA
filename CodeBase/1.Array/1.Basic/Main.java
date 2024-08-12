@@ -10,8 +10,9 @@ class Main{
         arrayOne[2] =  2;
 
         int[] arrayTwo = {1,2,3,4,5,6}; //OR new int[]{1,2,3,4,5,6}
-        int[] arrayThree = arrayTwo; //reference
+        int[] arrayThree = new int[5]; //reference
         arrayThree[0] = 11;
+        arrayThree = arrayTwo;
 
         Integer[] wrapperArray = new Integer[5];
 
@@ -43,6 +44,6 @@ class Main{
             }
         };
 
-        System.out.println("ThreeDArray Array : "+ThreeDArray[0][2][2]);
+        System.out.println("ThreeDArray Array : "+ThreeDArray[1][2][2]);
     }
 }

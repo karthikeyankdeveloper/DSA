@@ -12,7 +12,7 @@ void main(){
     arrayTwo[0] =  4;
 
     printf("Address of One : %d\n",&arrayOne);
-    printf("Value of Two : %d\n",arrayTwo);
+    printf("Value of Two : %d\n",arrayTwo); 
     printf("Address of Two : %d\n",&arrayTwo);
     printf("0 Index One : %d\n",arrayOne[0]);
     printf("0 Index Two : %d\n",arrayTwo[0]);
