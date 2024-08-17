@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "FindMissingNumber",
+      "request": "launch",
+      "mainClass": "FindMissingNumber",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "MoveZeroToEnd",
       "request": "launch",
       "mainClass": "MoveZeroToEnd",

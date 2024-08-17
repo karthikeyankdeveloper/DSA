@@ -10,11 +10,13 @@ struct Car{
 
 int main()
 {
+
+    struct Car car2 = {"Ford", "Mustang", 50000};
+
     struct Car car1 = {"BMW"};
     strcpy(car1.model, "x9");
     car1.price = 25000;
 
-    struct Car car2 = {"Ford", "Mustang", 50000};
 
     strcpy(car3.model, "x9");
     strcpy(car3.name, "test");

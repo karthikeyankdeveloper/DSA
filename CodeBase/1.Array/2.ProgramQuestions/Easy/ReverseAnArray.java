@@ -3,10 +3,11 @@ import java.util.Arrays;
 public class ReverseAnArray {
     
     public int[] reverse(int[] input) {
+        int n = input.length-1;
         for(int i=0;i<input.length/2;i++){
             int temp = input[i];
-            input[i] = input[input.length-i-1];
-            input[input.length-i-1] = temp;
+            input[i] = input[n-i];
+            input[n-i] = temp;
         }
         return input;
     }
