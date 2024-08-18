@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringManipulate",
+      "request": "launch",
+      "mainClass": "StringManipulate",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "sample",
+      "request": "launch",
+      "mainClass": "sample",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "aab",
+      "request": "launch",
+      "mainClass": "aab",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "Palindrome",
       "request": "launch",
       "mainClass": "Palindrome",
