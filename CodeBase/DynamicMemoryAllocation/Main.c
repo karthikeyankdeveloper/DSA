@@ -11,7 +11,7 @@ int main()
 void DynamicMemoryAllocation()
 {
     int size;
-    printf("Int Size %d byte, Enter Size of Int Array : ", sizeof(int));
+    printf("Int Size %d byte, Enter Size of Element in Int Array : ", sizeof(int));
     scanf("%d", &size);
 
     // int* p = (int*)malloc(sizeof(int)*size);
