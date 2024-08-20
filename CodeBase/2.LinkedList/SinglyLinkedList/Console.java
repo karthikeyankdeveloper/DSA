@@ -27,19 +27,19 @@ public class Console {
         System.out.print("Enter Position : ");
     }
     public static void invalidPosition() {
-        System.out.print("------------Invalid Position------------ \n");
+        System.out.print("\n------------Invalid Position------------ \n");
     }
 
     public static void noData() {
-        System.out.println("------------No Data Found!------------\n");
+        System.out.println("\n------------No Data Found!------------\n");
     }
 
     public static void insertAtBeginning() {
-        System.out.println("------------Inserted At Beginning------------\n");
+        System.out.println("\n------------Inserted At Beginning------------\n");
     }
 
     public static void insertAtEnd() {
-        System.out.println("------------Inserted At End------------\n");
+        System.out.println("\n------------Inserted At End------------\n");
     }
 
     public static void log(String str) {

@@ -14,8 +14,8 @@ void DynamicMemoryAllocation()
     printf("Int Size %d byte, Enter Size of Element in Int Array : ", sizeof(int));
     scanf("%d", &size);
 
-    // int* p = (int*)malloc(sizeof(int)*size);
-    int *p = (int *)calloc(size, sizeof(int));
+    int* p = (int*)malloc(sizeof(int)*size);
+    // int *p = (int *)calloc(size, sizeof(int));
 
     if (p == NULL)
     {
@@ -59,7 +59,8 @@ void DynamicMemoryAllocation()
         }
     }
 
-    temp = p;
+    //temp = p;
+    p = temp;
 
     printf("\nValues Entered :\n");
 

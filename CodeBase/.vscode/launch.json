@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeSortedList",
+      "request": "launch",
+      "mainClass": "problem.MergeSortedList",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "StringManipulate",
       "request": "launch",
       "mainClass": "StringManipulate",

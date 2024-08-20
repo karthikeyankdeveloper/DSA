@@ -12,8 +12,9 @@ struct Car
 int main()
 {
     struct Car car = {"Ford", "Mustang", 50000}; //In Stack Memory
-    struct Car *p;
+    struct Car *p; 
     p = &car;
+    
     //p.price dot operation not possible because it is structure function
     // Another idea is access using address *p.price , but it not work due to dot have high priority compare to *.
     // Another one way is Initially point address and dot operation (*p).price

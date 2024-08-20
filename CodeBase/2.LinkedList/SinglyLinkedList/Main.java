@@ -99,13 +99,13 @@ public class Main {
 
         while (temp != null) {
             if (value == temp.data) {
-                Console.log("True\n");
+                Console.log("---------------True---------------\n");
                 return;
             }
             temp = temp.next;
         }
 
-        Console.log("False\n");
+        Console.log("---------------False---------------\n");
     }
 
     private static void length() {
@@ -115,7 +115,7 @@ public class Main {
             temp = temp.next;
             len++;
         }
-        Console.log("Length : " + len + "\n");
+        Console.log("---------------Length : " + len + "---------------\n");
     }
 
     private static void Middle() {
@@ -133,7 +133,7 @@ public class Main {
             }
             fasttemp = fasttemp.next;
         }
-        Console.log("Middle : " + slowtemp.data + "\n");
+        Console.log("---------------Middle : " + slowtemp.data + "---------------\n");
     }
 
     private static void Reverse() {
@@ -162,9 +162,9 @@ public class Main {
             return;
         }
         Node temp = head;
-        Console.log("[");
+        Console.log("\n --> [");
         while (temp != null) {
-            Console.log(temp.next == null ? temp.data + "]\n" : temp.data + ",");
+            Console.log(temp.next == null ? temp.data + "] --> null\n\n" : temp.data + ", ");
             temp = temp.next;
         }
     }
@@ -291,7 +291,8 @@ public class Main {
             switch (input) {
                 case 1:
                     Console.enterValue();
-                    insertAtBeginning(value = sc.nextInt());
+                    value = sc.nextInt();
+                    insertAtBeginning(value);
                     break;
                 case 2:
                     Console.enterValue();

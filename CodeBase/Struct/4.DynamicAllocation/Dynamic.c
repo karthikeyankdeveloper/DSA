@@ -4,9 +4,9 @@
 
 struct Car
 {
-    char name[50];
-    char model[50];
-    int price;
+    char name[50]; //1 -> 50 byte
+    char model[50]; //1  -> 50 byte
+    int price; //4byte
 };
 
 int main()
