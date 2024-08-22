@@ -7,13 +7,16 @@ struct Node
 {
     int data;
     node *next; // self -reference Structure
+    //struct Node *node;
 };
 
-node *head = NULL;
+struct Node *head = NULL;
 
 void insertAtBeginning(int value)
 {
-    node *newNode = (node *)malloc(sizeof(node));
+
+    //node *newNode = (node*)malloc(sizeof(node));
+    struct Node *newNode = (struct Node*)malloc(sizeof(struct Node));
     if (newNode == NULL)
     {
         printf("Memory Allocation Failed !\n");
@@ -117,8 +120,9 @@ void insertAtEnd(int value)
             temp = temp->next;
         }
 
-        newNode->next = NULL;
+        //newNode->next = NULL;
         temp->next = newNode;
+        temp->next->next = NULL;
     }
 
     printf("Value %d Inserted At End\n\n", value);
@@ -136,13 +140,13 @@ void display()
 
     printf("Elements : [ ");
 
-    while (temp->next != NULL)
+    while (temp != NULL)
     {
-        printf("%d, ", temp->data);
+        printf("%d --> ", temp->data);
         temp = temp->next;
     }
 
-    printf("%d ]\n\n", temp->data);
+    printf("null ]\n\n");
 }
 
 int main()
@@ -201,7 +205,7 @@ int main()
             break;
         case 6: // exit
             return 0;
-            break;
+            //break;
         default:
             printf("Wrong Input\n");
         }
