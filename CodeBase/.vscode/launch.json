@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AddTwoNumber",
+      "request": "launch",
+      "mainClass": "problem.AddTwoNumber",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "MergeSortedList",
       "request": "launch",
       "mainClass": "problem.MergeSortedList",
