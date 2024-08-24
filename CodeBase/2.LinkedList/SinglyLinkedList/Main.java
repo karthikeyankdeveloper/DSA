@@ -275,14 +275,26 @@ public class Main {
         System.out.println("Loop Started at value of : "+temp.data);
     }
 
+
+    //Using Recurrsion print only
+    public static void reversePrint(Node node){
+        if(node==null) return;
+
+        reversePrint(node.next);
+
+        Console.log(node.data+" --> ");
+    }
     
     public static void main(String[] args) {
-        // insertAtEnd(0);
-        // insertAtEnd(1);
-        // insertAtEnd(1);
-        // insertAtEnd(2);
-        // insertAtEnd(3);
-        // insertAtEnd(3);
+        insertAtEnd(0);
+        insertAtEnd(1);
+        insertAtEnd(1);
+        insertAtEnd(2);
+        insertAtEnd(3);
+        insertAtEnd(3);
+
+        // reversePrint(head);
+        
         Scanner sc = new Scanner(System.in);
         while (true) {
             Console.MenuList();
