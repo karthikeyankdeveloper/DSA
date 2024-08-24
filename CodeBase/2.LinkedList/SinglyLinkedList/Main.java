@@ -164,7 +164,7 @@ public class Main {
         Node temp = head;
         Console.log("\n --> [");
         while (temp != null) {
-            Console.log(temp.next == null ? temp.data + "] --> null\n\n" : temp.data + ", ");
+            Console.log(temp.next == null ? (temp.data + "] --> null\n\n") : (temp.data + ", "));
             temp = temp.next;
         }
     }
@@ -277,12 +277,12 @@ public class Main {
 
     
     public static void main(String[] args) {
-        insertAtEnd(0);
-        insertAtEnd(1);
-        insertAtEnd(1);
-        insertAtEnd(2);
-        insertAtEnd(3);
-        insertAtEnd(3);
+        // insertAtEnd(0);
+        // insertAtEnd(1);
+        // insertAtEnd(1);
+        // insertAtEnd(2);
+        // insertAtEnd(3);
+        // insertAtEnd(3);
         Scanner sc = new Scanner(System.in);
         while (true) {
             Console.MenuList();
