@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class SinglyLinkedList {
 
     protected static Node head = null;
     private static int input, value, pos;

@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DoublyLinkedList",
+      "request": "launch",
+      "mainClass": "DoublyLinkedList.DoublyLinkedList",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "InBuilt",
+      "request": "launch",
+      "mainClass": "InBuilt",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "AddTwoNumber",
       "request": "launch",
       "mainClass": "problem.AddTwoNumber",
