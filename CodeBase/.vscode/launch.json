@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CircularLinkedList",
+      "request": "launch",
+      "mainClass": "CircularLinkedList.CircularLinkedList",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "DoublyLinkedList",
       "request": "launch",
       "mainClass": "DoublyLinkedList.DoublyLinkedList",
