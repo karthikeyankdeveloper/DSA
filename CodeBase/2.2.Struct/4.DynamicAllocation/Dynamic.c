@@ -9,9 +9,12 @@ struct Car
     int price; //4byte
 };
 
+// Also aliase or short name
+typedef struct Car car;
+
 int main()
 {
-    printf("Size : %d",sizeof(struct Car));
+    printf("Size : %d",sizeof(car));
 
     struct Car* p = (struct Car*)malloc(sizeof(struct Car)); // Heap Memory
 
