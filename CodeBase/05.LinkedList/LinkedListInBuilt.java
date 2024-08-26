@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class InBuilt {
+public class LinkedListInBuilt {
 
     public static void main(String[] args) {
         // Internally works as a doubly linked list
