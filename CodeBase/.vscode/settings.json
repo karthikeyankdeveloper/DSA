@@ -60,6 +60,7 @@
     "01.Array\\1.Basic",
     "05.LinkedList",
     "05.LinkedList\\SinglyLinkedList",
-    "06.Stack"
+    "06.Stack",
+    "07.Queue"
   ]
 }

@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LinkedListQueue",
+      "request": "launch",
+      "mainClass": "LinkedList.LinkedListQueue",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "ArrayQueue",
+      "request": "launch",
+      "mainClass": "array.ArrayQueue",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "ArrayQueue",
+      "request": "launch",
+      "mainClass": "Array.ArrayQueue",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
+      "name": "QueueInBuilt",
+      "request": "launch",
+      "mainClass": "QueueInBuilt",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "ArrayStack",
       "request": "launch",
       "mainClass": "array.ArrayStack",
