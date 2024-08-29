@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "InbuiltArrayList",
+      "request": "launch",
+      "mainClass": "InbuiltArrayList",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "LinkedListQueue",
       "request": "launch",
       "mainClass": "LinkedList.LinkedListQueue",
