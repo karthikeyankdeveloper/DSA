@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SinglyLinkedList",
+      "request": "launch",
+      "mainClass": "SinglyLinkedList",
+      "projectName": "CodeBase_3537e354"
+    },
+    {
+      "type": "java",
       "name": "InbuiltArrayList",
       "request": "launch",
       "mainClass": "InbuiltArrayList",

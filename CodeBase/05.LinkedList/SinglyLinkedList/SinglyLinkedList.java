@@ -119,21 +119,22 @@ public class SinglyLinkedList {
     }
 
     private static void Middle() {
-        if (head == null) {
-            Console.noData();
-            return;
-        }
+        // if (head == null) {
+        //     Console.noData();
+        //     return;
+        // }
         Node slowtemp = head;
         Node fasttemp = head;
-        while (fasttemp.next != null) {
+        while (fasttemp!=null && fasttemp.next != null) {
             slowtemp = slowtemp.next;
-            fasttemp = fasttemp.next;
-            if (fasttemp.next == null) {
-                break;
-            }
-            fasttemp = fasttemp.next;
+            fasttemp = fasttemp.next.next;
         }
-        Console.log("---------------Middle : " + slowtemp.data + "---------------\n");
+
+        if(slowtemp!=null){
+            Console.log("---------------Middle : " + slowtemp.data + "---------------\n");
+        }else{
+            Console.log("---------------Middle : No data ---------------\n");
+        }
     }
 
     private static void Reverse() {
@@ -170,14 +171,14 @@ public class SinglyLinkedList {
     }
 
     private static void FindnEnd(int value) {
-        if (head == null) {
+        if (head == null || value<=0) {
             Console.noData();
             return;
         }
         Node Slowtemp = head;
         Node Fasttemp = head;
 
-        for (int i = 0; i < value; i++) {
+        for (int i = 1; i < value; i++) {
             Fasttemp = Fasttemp.next;
             if (Fasttemp == null) {
                 Console.invalidPosition();
@@ -185,7 +186,7 @@ public class SinglyLinkedList {
             }
         }
 
-        while (Fasttemp != null) {
+        while (Fasttemp.next != null) {
             Fasttemp = Fasttemp.next;
             Slowtemp = Slowtemp.next;
         }
@@ -286,12 +287,12 @@ public class SinglyLinkedList {
     }
     
     public static void main(String[] args) {
-        insertAtEnd(0);
-        insertAtEnd(1);
-        insertAtEnd(1);
-        insertAtEnd(2);
-        insertAtEnd(3);
-        insertAtEnd(3);
+        insertAtEnd(10);
+        insertAtEnd(20);
+        // insertAtEnd(1);
+        // insertAtEnd(2);
+        // insertAtEnd(3);
+        // insertAtEnd(3);
 
         // reversePrint(head);
         

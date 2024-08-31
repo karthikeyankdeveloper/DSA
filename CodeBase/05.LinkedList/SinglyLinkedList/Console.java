@@ -10,14 +10,14 @@ public class Console {
         System.out.println("7.Search"); /* Done */
         System.out.println("8.Reverse"); /* Done */
         System.out.println("9.Middle"); /* Done */
-        System.out.println("10.Detect Loop"); /* Done */
+        System.out.println("10.Detect Loop" ); /* Done */
         System.out.println("11.Remove Loop"); /* Done */
         System.out.println("12.Length"); /* Done */
         System.out.println("13.Find nth Node from end of List"); /* Done */
         System.out.println("14.Remove Duplicate"); /* Done */
         System.out.println("15.Make Loop"); /* Done */
         System.out.println("16.Where Loop Start"); /* Done */
-        System.out.print("Select Menu : ");
+        System.out.print("Select Menu : "); //10, 11, 16
     }
 
     public static void enterValue() {
