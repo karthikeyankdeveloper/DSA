@@ -2,8 +2,6 @@
 
 This roadmap provides a structured path for mastering Data Structures and Algorithms (DSA). Each section includes key concepts, implementation strategies, and problem-solving techniques essential for competitive programming and technical interviews.
 
-## Milestones
-
 ### 1. Introduction to Data Structures and Algorithms
 - **Description**: Understand the importance of DSA in problem-solving, efficiency, and optimization. Learn about the various types of data structures and their real-world applications.
 - **Status**: Completed
