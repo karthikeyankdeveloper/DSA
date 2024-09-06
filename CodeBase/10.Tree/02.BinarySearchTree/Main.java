@@ -14,7 +14,18 @@ public class Main {
         
 
         bst.inorder(bst.root);
-        bst.search(0);
+
+        if (bst.search(bst.root,0)==null) {
+            System.out.println("No data Found in Searching!");
+        }else{
+            System.out.println("Data Exists in BST!");
+        }
+
+        if (bst.search(bst.root,50)==null) {
+            System.out.println("No data Found in Searching!");
+        }else{
+            System.out.println("Data Exists in BST!");
+        }
     }
     
 }

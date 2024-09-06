@@ -26,21 +26,28 @@ public class BinarySearchTree {
         inorder(root.right);
     }
 
-    public Node insert(Node root,int data){
-
-        if(root==null) return new Node(data);
-
-        if(root.data>data){
-            root.left = insert(root.left, data);
-        }else{
-            root.right = insert(root.right, data);
+    public Node search(Node node,int data){
+        if(node==null || node.data==data){
+            return node;
         }
 
-        return root;
+        if(data<node.data){
+            return search(node.left, data);
+        }
+            
+        return search(node.right, data);
     }
 
-    public void search(int data){
-
+    public Node insert(Node node,int data){
+        if(node==null){
+            return new Node(data);
+        }
+        if(node.data>data){
+            node.left = insert(node.left, data);
+        }else{
+            node.right = insert(node.right, data);
+        }
+        return node;
     }
     
 }
