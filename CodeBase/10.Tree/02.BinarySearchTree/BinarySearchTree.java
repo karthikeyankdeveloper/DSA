@@ -49,5 +49,46 @@ public class BinarySearchTree {
         }
         return node;
     }
+
+    // If delete node is root and having one child only
+    public void delete(int data){
+        root = delete(root,data);
+    }
+
+    public Node delete(Node node,int data){
+        if(node==null) return node;
+
+        if(node.data>data){
+            node.left = delete(node.left, data);
+        }
+        else if(node.data<data){
+            node.right =  delete(node.right, data);
+        }else{
+            if(node.left==null){
+                return node.right;
+            }else if(node.right==null){
+                return node.left;
+            }
+
+            node.data = min(node.right);
+            node.right = delete(node.right, node.data);
+        }
+        
+        return node;
+    }
     
+
+    public int min(Node node){
+
+        int minimum = 0;
+
+
+        while(node!=null){
+            minimum = node.data;
+            node = node.left;
+        }
+
+        return minimum;
+
+    }
 }
