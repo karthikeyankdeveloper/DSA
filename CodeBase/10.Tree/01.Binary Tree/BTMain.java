@@ -1,4 +1,4 @@
-public class Main {
+public class BTMain {
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree(10);
         binaryTree.insertLeft(binaryTree.root, 12);
