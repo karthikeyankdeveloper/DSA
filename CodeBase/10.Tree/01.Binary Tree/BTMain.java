@@ -8,11 +8,23 @@ public class BTMain {
         binaryTree.insertLeft(binaryTree.root.right, 5);
 
 
+        System.out.println("\nPre order traversal");
         BinaryTree.preOrder(binaryTree.root);
-        System.out.println();
+        // Recursive Way 
+        binaryTree.preOrder();
+        
+        System.out.println("\n\nIn order traversal");
         BinaryTree.inOrder(binaryTree.root);
-        System.out.println();
+        // Recursive Way 
+        binaryTree.inOrder();
+        
+        System.out.println("\n\nPost order traversal");
         BinaryTree.postOrder(binaryTree.root);
+        // Recursive Way 
+        binaryTree.postOrder();
+
+        System.out.println("\n\nLevel order traversal");
+        binaryTree.levelOrder();
 
     }
 }
