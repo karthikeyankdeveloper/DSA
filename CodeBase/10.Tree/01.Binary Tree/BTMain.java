@@ -26,5 +26,12 @@ public class BTMain {
         System.out.println("\n\nLevel order traversal");
         binaryTree.levelOrder();
 
+
+        System.out.println("Max in Binary Tree : "+binaryTree.findMax(binaryTree.root));
+
+
+
+
     }
 }
+
