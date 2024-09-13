@@ -22,6 +22,7 @@ public class BSTMain {
 
         bst.inorder(bst.root);
 
+        System.out.println("\nIs Valid BST : "+ bst.validBST(bst.root,Long.MIN_VALUE,Long.MAX_VALUE));
     }
     
 }

@@ -91,4 +91,21 @@ public class BinarySearchTree {
         return minimum;
 
     }
+
+    public boolean validBST(Node root,long min,long max){
+        if(root==null) return true;
+
+        if(root.data<=min || root.data>=max){
+            return false;
+        }
+        boolean left = validBST(root.left, min, root.data);
+        
+        if(left){
+            boolean right = validBST(root.right, root.data, max);
+            return right;
+        }
+
+        return false;
+         
+    }
 }

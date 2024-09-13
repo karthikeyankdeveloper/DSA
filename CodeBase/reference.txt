@@ -1,0 +1,8 @@
+Problem
+1. Array
+2. LinkedList
+3. Stack - Next Greater Element, Valid Paranthesis
+4. Queue - Generate Binary number from 1 to n using Queue
+5. Tree - Traversal in recursion & stack, Max in BT, Valid BST
+6. AVL tree - balanced BST
+7. 
