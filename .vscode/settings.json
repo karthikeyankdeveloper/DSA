@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "CodeBase/14.Searching/LinearSearch",
         "CodeBase/11.Matrix",
-        "CodeBase/10.Tree/04.Heap"
+        "CodeBase/10.Tree/04.Heap",
+        "CodeBase/14.Searching/BinarySearch"
     ]
 }

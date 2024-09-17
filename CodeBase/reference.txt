@@ -6,3 +6,4 @@ Problem
 5. Tree - Traversal in recursion & stack, Max in BT, Valid BST
 6. AVL tree - balanced BST
 7. Spiral Martix
+8. Binary Heap - MinHeap
