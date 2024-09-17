@@ -1,4 +1,4 @@
-name: Code Analysis
+name: Static Code Analysis
 
 on:
   push:
@@ -20,10 +20,10 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
-          distribution: 'temurin' 
+          distribution: 'temurin'  # Specifies the JDK distribution
 
       - name: Install Checkstyle
-        run: wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.7/checkstyle-10.7-all.jar -O checkstyle.jar
+        run: wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.18.1/checkstyle-10.18.1-all.jar -O checkstyle.jar
 
       - name: Run Checkstyle
         run: |
