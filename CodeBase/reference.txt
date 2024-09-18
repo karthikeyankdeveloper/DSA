@@ -7,3 +7,4 @@ Problem
 6. AVL tree - balanced BST
 7. Spiral Martix
 8. Binary Heap - MinHeap
+9. Search Insert position in sorted array in O(log n)
