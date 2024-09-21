@@ -8,3 +8,7 @@ Problem
 7. Spiral Martix
 8. Binary Heap - MinHeap
 9. Search Insert position in sorted array in O(log n)
+10. merge two sorted array 
+11. merge sorte
+12. Dutch National Flag
+13. Quick Sort
