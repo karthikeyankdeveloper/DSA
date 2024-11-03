@@ -1,10 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "CodeBase/16.Backtracking",
         "CodeBase/15.Sorting",
         "CodeBase/14.Searching/LinearSearch",
         "CodeBase/14.Searching/BinarySearch",
+        "CodeBase/12.Graph",
         "CodeBase/11.Matrix",
         "CodeBase/10.Tree/04.Heap",
-        "CodeBase/12.Graph"
+        "CodeBase/17.Partition"
     ]
 }
